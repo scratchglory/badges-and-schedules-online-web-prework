@@ -28,7 +28,6 @@ def printer(attendees)
   name.each { |string| badges << "Hello, my name is #{string}." }
   badges
   end
- attendees.each { |x| print x, ""}
 end
 
 end
