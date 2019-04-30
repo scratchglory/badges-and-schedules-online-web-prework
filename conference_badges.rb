@@ -16,6 +16,4 @@ end
 # puts the list of badges and room_assignemnts
 # "Hello, #{attendees}! You'll be assigned to room #{room_assignment}!"
 def assign_rooms(attendees)
-  rooms = attendees
-  rooms.each_with_index { |value, room| p "Hello, #{value}! You'll be assigned to room #{room}!" }
 end 
