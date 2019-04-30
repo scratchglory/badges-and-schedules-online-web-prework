@@ -23,5 +23,5 @@ end
 
 #   Should puts the list of badges and room room_assignemnts
 def printer()
-  batch_badge_creator.each
+  batch_badge_creator.each { |name| print ""
 end
