@@ -18,4 +18,6 @@ end
 def assign_rooms(attendees)
   hash = Hash.new
   attendees.each_with_new_array{ |value, index| puts "Hello, #{value}! You'll be assigned to room #{index}!"
+  
 end 
+hash
