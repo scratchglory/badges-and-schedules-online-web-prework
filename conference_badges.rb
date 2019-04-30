@@ -24,5 +24,5 @@ end
 #   Should puts the list of badges and room room_assignemnts
 def printer(attendees)
   batch_badge_creator.each { |x| print x, ", " }
-  room_assignemnts.each { |y| print y, ", "
+  room_assignemnts.each { |y| print y, ", " }
 end
