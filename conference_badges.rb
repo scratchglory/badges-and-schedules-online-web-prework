@@ -17,5 +17,5 @@ end
 # "Hello, #{attendees}! You'll be assigned to room #{room_assignment}!"
 def assign_rooms(attendees)
   rooms = attendees
-  rooms.each_with_index { |value, index| p "Hello, #{value}! You'll be assigned to room #{index}!" }
+  rooms.each_with_index { |value, room| p "Hello, #{value}! You'll be assigned to room #{index}!" }
 end 
