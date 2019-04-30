@@ -25,5 +25,4 @@ end
 def printer(attendees)
   puts "Hello, my name is #{attendees}."
   
-  
 end
