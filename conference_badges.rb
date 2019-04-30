@@ -22,5 +22,5 @@ def assign_rooms(attendees)
 end 
 
 #   Should puts the list of badges and room room_assignemnts
-def printer()
+def printer(attendees)
 end
