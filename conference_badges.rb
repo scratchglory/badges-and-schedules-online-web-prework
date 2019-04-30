@@ -29,5 +29,3 @@ def printer(attendees)
   badges
   end
 end
-
-end
