@@ -34,5 +34,5 @@ def printer(attendees)
     "Hello, #{value}! You'll be assigned to room #{index + 1}!"
    end
 end
-attendees.each { |x|
+attendees.each
 end
