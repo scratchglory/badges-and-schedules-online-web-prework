@@ -23,7 +23,7 @@ end
 
 #   Should puts the list of badges and room room_assignemnts
 def printer(attendees)
-  def batch_badge_creator(attendees)
+    batch_badge_creator(attendees)
     batch_badge_creator(attendees).each { |x| print x, ""}
   end
 end
