@@ -17,5 +17,5 @@ end
 # "Hello, #{name}! You'll be assigned to room #{room_assignment}!"
 def assign_rooms(attendees)
   hash = Hash.new 
-  array.each_with_index 
+  array.each_with_index { | 
 end
