@@ -28,11 +28,11 @@ def printer(attendees)
   name.each { |string| badges << "Hello, my name is #{string}." }
   badges
   end
- 
+ attendees.each { |x| print x, ""}
   def assign_rooms(attendees)
   attendees.each_with_index.collect do |value, index|
     "Hello, #{value}! You'll be assigned to room #{index + 1}!"
    end
 end
-attendees.each { |x| print x, ""}
+
 end
