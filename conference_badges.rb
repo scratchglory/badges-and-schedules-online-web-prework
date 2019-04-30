@@ -17,6 +17,6 @@ end
 # "Hello, #{attendees}! You'll be assigned to room #{room_assignment}!"
 def assign_rooms(attendees)
   hash = Hash.new
-  attendees.each_with_new_array{ |value, index| puts "Hello, #{value}! You'll be assigned to room #{index}!"
+  hash.each_with_new_array{ |value, index| puts "Hello, #{value}! You'll be assigned to room #{index}!"
 hash
 end 
