@@ -22,6 +22,6 @@ def assign_rooms(attendees)
 end 
 
 #   Should puts the list of badges and room room_assignemnts
-def printer(attendees)
-  assign_rooms.each {|attendees| print attendees, ""}
+def printer()
+  
 end
