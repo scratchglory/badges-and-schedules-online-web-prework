@@ -15,5 +15,6 @@ end
 
 # puts the list of badges and room_assignemnts
 # "Hello, #{attendees}! You'll be assigned to room #{room_assignment}!"
-def assign_rooms(attendees)
+def assign_rooms(room_assignments)
+  
 end 
