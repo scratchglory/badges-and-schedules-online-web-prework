@@ -25,4 +25,5 @@ end
 def printer(attendees)
   def batch_badge_creator(attendees)
     attendees.each { |x| print x, ""}
+  end
 end
