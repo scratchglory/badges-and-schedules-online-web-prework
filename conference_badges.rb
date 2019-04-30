@@ -23,7 +23,5 @@ end
 
 #   Should puts the list of badges and room room_assignemnts
 def printer(attendees)
-  badges = []
-  attendees.each { |string| badges << "Hello, my name is #{string}." }
-  badges
+  
 end
