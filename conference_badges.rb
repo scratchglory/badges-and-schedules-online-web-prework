@@ -22,7 +22,7 @@ def assign_rooms(attendees)
 end 
 
 #   Should puts the list of badges and room room_assignemnts
-def printer
+def printer(attendees)
   def batch_badge_creator(name)
   badges = []
   name.each { |string| badges << "Hello, my name is #{string}." }
