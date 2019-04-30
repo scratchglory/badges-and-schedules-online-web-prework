@@ -18,4 +18,5 @@ end
 def assign_rooms(room_assignments)
   room_assignments = [].new
   room_assignments.each_with_index { |value, index| puts "Hello, #{value}! You'll be assigned to room #{index}!"
+  room_assignments
 end 
