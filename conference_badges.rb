@@ -29,10 +29,6 @@ def printer(attendees)
   badges
   end
  attendees.each { |x| print x, ""}
-  def assign_rooms(attendees)
-  attendees.each_with_index.collect do |value, index|
-    "Hello, #{value}! You'll be assigned to room #{index + 1}!"
-   end
 end
 
 end
