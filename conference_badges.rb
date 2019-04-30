@@ -7,9 +7,9 @@ end
 
 #   Should return "Hello, my name is #{name}." 
 #   Should not hard-code the response
-def batch_badge_creator(name)
+def batch_badge_creator(attendees)
   badges = []
-  name.each { |string| badges << "Hello, my name is #{string}." }
+  attendees.each { |string| badges << "Hello, my name is #{string}." }
   badges
 end
 
