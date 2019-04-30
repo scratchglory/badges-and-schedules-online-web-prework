@@ -23,5 +23,5 @@ end
 
 #   Should puts the list of badges and room room_assignemnts
 def printer()
-  
+  assign_rooms.each
 end
